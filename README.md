@@ -5,35 +5,36 @@ To write a python program to circulate the n variables using function concept
 PC
 Anaconda - Python 3.7
 ## Algorithm: 
-##Step 1:
+## Step 1:
 Get the list of values from the user
 
-##Step 3:
+## Step 3:
 Get the value from the user for the number of rotation
-
-##Step 4:
+ 
+## Step 4:
 Using the slicing concept rotate the list
 
-##Step 5:
+## Step 5:
 Execute the code
 
-##Step 6:
+## Step 6:
 End the program
 ## Program:
 ```
-#Program to swap two values.
-#Developed by: NARENDRAN B 
-#RegisterNumber: 212222240069
-num1,num2=input(),input()
-temp=num1
-num1=num2
-num2=temp
-print("Swapped values are:",num1,num2)
+#Program to circulate N values.
+#Developed by: NARENDRAN B  
+#RegisterNumber:212222240069
+def circulate():
+    list1=eval(input())
+    n=int(input())
+    result=list1[n:]+list1[:n]
+    print("After circulating the values are:",result)
 ```
 
 
 ## Output:
-![Screenshot 2023-04-05 112228](https://user-images.githubusercontent.com/118706984/229992868-93b6bfb4-15d6-4939-8e48-38e4b5aecb66.png)
+![Screenshot 2023-04-10 112305](https://user-images.githubusercontent.com/118706984/230835945-352e1ff9-d5cf-4080-b784-3f18b026d61e.png)
+
 
 
 ## Result:
